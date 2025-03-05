@@ -10,3 +10,17 @@
 // else {
 //    console.log("Après une réduction de" + " " + solde + " " +"%, le prix final est de" + " " + resultatLast + " euros")
 // }
+//
+// Exercice GAME
+let Harry = 29; 
+// Conditions si 
+if (Harry >= 50){
+    alert("Harry dit: J'attaque normalement.");
+}
+else if (Harry >= 30 && Harry <= 50){
+
+    alert("Harry dit: J'attaque moins fort");
+}
+else {
+    alert("Harry dit: Je dois fuir le combat !");
+}
