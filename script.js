@@ -39,7 +39,7 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
 
     if (choixUser == "y"){
 
-        // COMBAT - CONTRE 3 ENNEMIS
+        // COMBAT - CONTRE ENNEMIS
         console.log( "Lancement du combat !" );
         console.log( "Il y a 3 ennemies devant toi ! Attention !" );
 
