@@ -67,7 +67,9 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
 
 
 
-        // EN COURS
+        // EN COURS //
+        // 
+        //
         // RECOMPENSE COFFRES
         let ObjetCoffre = [ "Epée legendaire", "Potion magique", "Bouclier en or" ];
         ObjetCoffre.forEach(function(objetcoffre){
