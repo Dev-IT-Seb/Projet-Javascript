@@ -64,43 +64,21 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
             break;
         }
         
-        // EN COURS //
         // RECOMPENSE COFFRES
-        let ObjetCoffre = [ "Epée legendaire", "Potion magique", "Bouclier en or" ];
-
+        let ObjetCoffre = [ "Epée legendaire", " ", "Potion magique", " ","Bouclier en or" ];
         // DECLARER VARIABLE AVT DE RENTRER DANS LA BOUCLE -  SINON VARIABLES PAS ACCESSIBLE
         let butin = "le héro à trouver :";
-        
         // BOUCLE
         for ( let i = 0; i < ObjetCoffre.length; i++ ){
         
             butin = butin + ObjetCoffre[i];
         }
-        
         // ALERTE
         alert(butin);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // EN COURS //
         // INFORMATION ENERGIE APRES COMBAT
         alert( "Alerte ! Tu n'as plus d'energie !" );
         alert( "Tu dois refaire un entrainement pour continuer l'aventure !" );
