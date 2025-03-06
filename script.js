@@ -70,20 +70,40 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
 
         
         // EN COURS //
-        // 
-        //
         // RECOMPENSE COFFRES
         let ObjetCoffre = [ "Epée legendaire", "Potion magique", "Bouclier en or" ];
-        ObjetCoffre.forEach(function(objetcoffre){
-        console.log("Objet récupéré :" + " " + objetcoffre);
-        });
+        let butin = "le héro à trouver :";
+        
+        for (let i=0; i<ObjetCoffre.length;i++){
+            butin = butin + ObjetCoffre[i];
+        }
+        
+        alert(butin);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // INFORMATION ENERGIE APRES COMBAT
         alert( "Alerte ! Tu n'as plus d'energie !" );
         alert( "Tu dois refaire un entrainement pour continuer l'aventure !" );
-
-
-
     } else{
         alert("Dommage ! Tu aurais pu essayer..." );
         alert("Relance le jeux si tu veux refaire une partie" );
