@@ -12,7 +12,7 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
 
     // ENTRAINEMENT INFORMATIONS
     console.log(" Debut de l'entrainement de ton héro !" );
-    console.log(" Ton héro doit effectuer une série de 5 entrainements avant de partir au combat !" );
+    console.log(" Ton héro doit effectuer une série d'ntrainements avant de partir au combat !" );
 
     // DEMANDE A L'UTILISATEUR LE NOMBRE DE SEANCE POUR OBTENIR DE L'ENERGIE
     let nbSeances = prompt("Combien de séances d'entrainement veux-tu réaliser ?")
@@ -67,6 +67,8 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
 
 
 
+
+        
         // EN COURS //
         // 
         //
@@ -77,8 +79,11 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
         });
 
         // INFORMATION ENERGIE APRES COMBAT
-        console.log( "Alerte ! Tu n'as plus d'energie !" );
-        console.log( "Tu dois refaire un entrainement pour continuer l'aventure !" );
+        alert( "Alerte ! Tu n'as plus d'energie !" );
+        alert( "Tu dois refaire un entrainement pour continuer l'aventure !" );
+
+
+
     } else{
         alert("Dommage ! Tu aurais pu essayer..." );
         alert("Relance le jeux si tu veux refaire une partie" );
