@@ -54,8 +54,8 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
             
             if (consultEnergie == "y") {
                 const heroEnergiecombat = (heroEnergie - 1)
-                alert("Il te reste " + heroEnergiecombat + "énergie");
-                console.log("Il te reste " + heroEnergiecombat + " " + "énergie");
+                alert("Il te reste " + " "+ heroEnergiecombat + "énergie");
+                console.log("Il te reste " + " " + heroEnergiecombat + " " + "énergie");
             } else {
                 alert("L'aventure continue !");
             }
