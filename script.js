@@ -67,14 +67,14 @@ let launchGames = prompt("Veux-tu faire une partie du jeux Harry Potter ? Ecrit 
         // RECOMPENSE COFFRES
         let ObjetCoffre = [ "Epée legendaire", " ", "Potion magique", " ","Bouclier en or" ];
         // DECLARER VARIABLE AVT DE RENTRER DANS LA BOUCLE -  SINON VARIABLES PAS ACCESSIBLE
-        let butin = "le héro à trouver :";
+        let recompense = "le héro à récupéré :";
         // BOUCLE
         for ( let i = 0; i < ObjetCoffre.length; i++ ){
         
-            butin = butin + ObjetCoffre[i];
+            recompense = recompense + ObjetCoffre[i];
         }
         // ALERTE
-        alert(butin);
+        alert(recompense);
 
 
 
